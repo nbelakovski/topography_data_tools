@@ -11,6 +11,7 @@ tend = time.time()
 print("Successfully read", hardcoded_filename, "using bindings in {0:.2f} seconds".format(tend - tstart))
 print(matrix)
 
+# Using pure python code
 import read_data
 tstart = time.time()
 matrix = read_data.read_data(hardcoded_filename)
