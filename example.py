@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import time
-hardcoded_filename='../sample_data/01824c/WA_GlacierPeak_2014_001072.data'
+hardcoded_filename='WA_GlacierPeak_2014_001072.data'
 
 # Using bindings (make sure to compile using ./build_bindigs.sh)
 import tools
