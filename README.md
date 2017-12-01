@@ -23,7 +23,7 @@ There are two options for reading the `.data` files:
 1. Use read_data.py, which reads the file using pure Python code
 2. Use the bindings, which link to compiled C++ code and are about 10x faster than the first option
 
-To use the bindings, run `./build_bindings.sh` (assumes python3.5 and pybind11 installed via pip).
+To use the bindings, run `./build_bindings.sh` (assumes python3.5 and pybind11 installed via pip), or download them from the release.
 
 # Examples
 
