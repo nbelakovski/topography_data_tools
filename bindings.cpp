@@ -7,5 +7,5 @@ namespace py = pybind11;
 
 PYBIND11_MODULE(tools, module)
 {
-  module.def("read_data", &tools::read_data, "read rows and columns from the provided .data file, returns numpy array");
+  module.def("read_data", &tools::read_data, "read rows and columns from the provided .data file, returns numpy array", py::return_value_policy::take_ownership);
 }
